@@ -15,10 +15,9 @@ body {
 .wrapper {
 	width: 98%;
 	background-color: #fff;
-	margin: 1%;
+	margin: 0px 1%;
 	display: grid;
   grid-gap: 10px;
-  border: 1px solid red;
 }
 
 /* grid system -- mobile first! */
@@ -27,17 +26,19 @@ body {
   background-color: #ffc;
 }
 .r1c0 {
-  background-color: #ccf;
+  /* background-color: #ccf; */
   display: flex;
 }
 .r2c0 {
   background-color: #fcf;
 }
 .r3c1 {
-  background-color: #cff;
+  /* background-color: #cff; */
+  margin: 0px 20px;
 }
 .r3c2 {
-  background-color: rgb(204, 255, 208);
+  /* background-color: rgb(204, 255, 208); */
+  margin: 0px 20px;
 }
 .r4c0 {
   background-color: rgb(92, 119, 119);
@@ -48,10 +49,41 @@ body {
 .r6c0 {
   background-color: rgb(168, 116, 155);
 }
+/* listed item for sell */
+.first_item_row, .second_item_row {
+  display: flex;
+  justify-content: space-between;
+ }
+ .second_item_row {
+  display: flex;
+ }
+ .item{
+  border: 1px solid red;
+  height: 350px;
+  width: 250px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-between; */
+
+ }
+ .item_image img {
+  width: 100%;
+  max-width: 190px;
+  text-align: center;
+  margin: 10px;
+ }
+ .item_name{
+  margin: 10px;
+ }
+ .item_button{
+  margin: 10px;
+ }
 
 /* Mobile Landscape Screen Sizes */
 @media only screen and (min-width: 480px)  {
-  
+
 }
 /* Desktop screen Sizes */
 @media only screen and (min-width: 768px) {
