@@ -15,10 +15,10 @@ body {
 .wrapper {
 	width: 98%;
 	background-color: #fff;
-	margin: 1%;
+	margin: 0px 1%;
 	display: grid;
   grid-gap: 10px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 /* grid system -- mobile first! */
